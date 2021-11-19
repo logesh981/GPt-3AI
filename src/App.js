@@ -2,7 +2,7 @@ import React from 'react';
 
 // import './App.css';
 
-import {Header,Footer,Blog,Possibility,Features,WhatGPT3} from './Containers';
+import {Header,Footer,Blog,Possibility,WhatGPT3} from './Containers';
 import {Cta,Brand,NavBar} from './Components';
 //styles
 import { GlobalStyle } from './GlobalStyle';
@@ -16,7 +16,7 @@ const App=()=>(
     </div>
       <Brand/>
       <WhatGPT3/>
-      <Features/>
+      {/* <Features/> */}
       <Possibility/>
       <Cta/>
       <Blog/>
